@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.calculo{
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 45px 2px blue;
+    position:absolute;
+    left: 350px;
+    top: 100px;
+}
+label{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+input{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    border-radius: 20px;
+    border-color: aliceblue;
+    box-shadow: 10px 10px 45px 2px rgb(0, 0, 0);
+}
+.Soma{
+    position: relative;
+    top: 40px;
+    left:-10px;
+    border-radius: 20px;
+    color: blue;
+    background-color: black;
+}
+.Sub{
+    position: relative;
+    top: 19px;
+    left: 517px;
+    border-radius: 20px;
+    color: blue;
+    background-color: black;
+}
+.Div{
+    position: relative;
+    top: 45px;
+    left: 260px;
+    border-radius: 20px;
+    color: blue;
+    background-color: black;
+}
+.Multi{
+    position: relative;
+    top: 45px;
+    left: 422px;
+    border-radius: 20px;
+    color: blue;
+    background-color: black;
+}
+h1{
+    font-size: 22px;
+    position: relative;
+    left: 10px;
+    width: 290px;
+}

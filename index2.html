@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <form action="void(0);">
+        <input type="button" value="X" id="X">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <div class="main">
+                <label class="label" for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="main">
+                <label class="label" for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="main">
+                <label class="label" for="dtnasc">Nascimento:</label>
+                <input type="date" name="dtnasc" id="dtnasc">
+            </div>
+            <div>
+                <input id="Cadastro" type="button" value="Cadastrar">
+            </div>
+            <div>
+                <input id="Resetar" class="Resetar" type="button" value="Limpar Cadastro">
+            </div>
+            <ul>
+                <H1>Informaçoes do Cadastro:</H1>
+                <li id="nome2">Nome:</li>
+                <li id="email2">E-mail:</li>
+                <li id="dtnasc2">Data de Nascimento:</li>
+            </ul>
+        </fieldset>
+    </form>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
